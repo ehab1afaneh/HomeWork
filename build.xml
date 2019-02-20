@@ -16,6 +16,7 @@
 	    </path>
 
 <target name="compile"> 
+
 <mkdir dir="${result.javaclasses.dir}"/> 
 <javac srcdir="./src/re"  destdir="${result.javaclasses.dir}" classpath="./UsedLibraries/junit-4.12.jar" debug="true" includeantruntime="false">
 </javac>
