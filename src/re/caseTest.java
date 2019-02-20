@@ -28,7 +28,7 @@ public	void testAddBook2() {
 		y.addcart();
 		y.addBook(0, 127,"java", 1);
 		y.addBook(0, 100,"Web desing Book", 1);
-		assertTrue((2==y.al.get(0).ala.size()) && (227 == y.al.get(0).getcount())) ;
+		assertTrue(2==y.al.get(0).ala.size())  ;
 		assertTrue(227 == y.al.get(0).getcount()) ;
 		
 	}
