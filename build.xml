@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<project default="compile">  
+<project default="test">  
   <property name ="src.java.dir" location ="./src/re"/>
   <property name ="src.test.dir" location ="./src/re"/>
   <property name ="result.dir" location ="./target"/>
@@ -17,7 +17,7 @@
 
 <target name="compile"> 
 <mkdir dir="${result.javaclasses.dir}"/> 
-<javac srcdir="./src/re"  destdir="${result.javaclasses.dir}" classpath="./UsedLibraries/junit-4.12.jar" debug="true" includeantruntime="true">
+<javac srcdir="./src/re"  destdir="${result.javaclasses.dir}" classpath="./UsedLibraries/junit-4.12.jar" debug="true" includeantruntime="false">
 </javac>
 </target>
 	
